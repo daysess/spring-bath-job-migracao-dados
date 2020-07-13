@@ -1,17 +1,20 @@
 package br.com.daysesoares.migracaodados.dominio;
 
-import java.time.LocalDate;
+import java.util.Date;
 
 public class Pessoa {
 	
 	private Integer id;
 	private String nome;
 	private String email;
-	private LocalDate dataNascimento;
+	private Date dataNascimento;
 	private int idade;
 	
+	public Pessoa () {
+		
+	}
 
-	public Pessoa(Integer id, String nome, String email, LocalDate dataNascimento, int idade) {
+	public Pessoa(Integer id, String nome, String email, Date dataNascimento, int idade) {
 		super();
 		this.id = id;
 		this.nome = nome;
@@ -44,11 +47,11 @@ public class Pessoa {
 		this.email = email;
 	}
 
-	public LocalDate getDataNascimento() {
+	public Date getDataNascimento() {
 		return dataNascimento;
 	}
 
-	public void setDataNascimento(LocalDate dataNascimento) {
+	public void setDataNascimento(Date dataNascimento) {
 		this.dataNascimento = dataNascimento;
 	}
 

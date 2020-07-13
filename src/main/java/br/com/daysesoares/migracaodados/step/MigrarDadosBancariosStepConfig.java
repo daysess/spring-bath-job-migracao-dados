@@ -9,7 +9,6 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 import br.com.daysesoares.migracaodados.dominio.DadosBancarios;
-import br.com.daysesoares.migracaodados.dominio.Pessoa;
 
 @Configuration
 public class MigrarDadosBancariosStepConfig {

@@ -8,6 +8,9 @@ public class DadosBancarios {
 	private Integer conta;
 	private Integer banco;
 	
+	public DadosBancarios() {
+		
+	}
 
 	public DadosBancarios(Integer id, Integer pessoa_id, Integer agencia, Integer conta, Integer banco) {
 		super();
