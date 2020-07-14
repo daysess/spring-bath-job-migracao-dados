@@ -3,7 +3,7 @@ package br.com.daysesoares.migracaodados.dominio;
 public class DadosBancarios {
 
 	private Integer id;
-	private Integer pessoa_id;
+	private Integer pessoaId;
 	private Integer agencia;
 	private Integer conta;
 	private Integer banco;
@@ -12,10 +12,10 @@ public class DadosBancarios {
 		
 	}
 
-	public DadosBancarios(Integer id, Integer pessoa_id, Integer agencia, Integer conta, Integer banco) {
+	public DadosBancarios(Integer id, Integer pessoaId, Integer agencia, Integer conta, Integer banco) {
 		super();
 		this.id = id;
-		this.pessoa_id = pessoa_id;
+		this.pessoaId = pessoaId;
 		this.agencia = agencia;
 		this.conta = conta;
 		this.banco = banco;
@@ -29,12 +29,12 @@ public class DadosBancarios {
 		this.id = id;
 	}
 
-	public Integer getPessoa_id() {
-		return pessoa_id;
+	public Integer getPessoaId() {
+		return pessoaId;
 	}
 
-	public void setPessoa_id(Integer pessoa_id) {
-		this.pessoa_id = pessoa_id;
+	public void setPessoaId(Integer pessoaId) {
+		this.pessoaId = pessoaId;
 	}
 
 	public Integer getAgencia() {
@@ -60,6 +60,8 @@ public class DadosBancarios {
 	public void setBanco(Integer banco) {
 		this.banco = banco;
 	}
+
+	
 	
 	
 	
