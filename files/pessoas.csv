@@ -1,5 +1,5 @@
 -- Estrutura: nome,email,data_nascimento,idade,id
-Kieth Clark,Kieth_Clark2321@zorer.org,2000-05-12 18:26:30,41,1
+,Kieth_Clark2321@zorer.org,2000-05-12 18:26:30,41,1
 Andrea Bailey,Andrea_Bailey3082@corti.com,1887-06-15 03:10:50,29,2
 Bernadette Lee,Bernadette_Lee4410@hourpy.biz,1843-09-27 07:22:03,56,3
 Anthony Leigh,Anthony_Leigh1917@eirey.tech,1955-09-27 20:28:30,61,4
@@ -11,13 +11,13 @@ Deborah Everett,Deborah_Everett8241@nimogy.biz,1908-02-20 14:53:55,75,9
 Clint Lloyd,Clint_Lloyd7713@ovock.tech,1948-10-17 01:01:22,92,10
 Russel Gilbert,Russel_Gilbert3516@sheye.org,1842-12-18 12:58:31,33,11
 Lily Redwood,Lily_Redwood4998@vetan.org,1927-06-26 04:33:21,36,12
-Rylee Price,Rylee_Price3667@corti.com,2009-11-26 13:52:22,53,13
+,Rylee_Price3667@corti.com,2009-11-26 13:52:22,53,13
 Elle Bennett,Elle_Bennett2912@dionrab.com,1955-04-12 19:51:02,64,14
 Owen Gavin,Owen_Gavin7497@nanoff.biz,1932-10-22 08:33:09,51,15
 Aiden Wilde,Aiden_Wilde1678@gembat.biz,1958-12-12 20:48:50,86,16
 Selena Baker,Selena_Baker996@tonsy.org,1931-09-13 12:51:25,95,17
 Anais Freeburn,Anais_Freeburn7990@bretoux.com,1830-07-31 17:49:11,93,18
-Ember Garcia,Ember_Garcia9747@extex.org,1920-01-25 07:02:04,48,19
+Ember Garcia,Ember_Garcia9747@extex.org,,48,19
 Sabrina Cooper,Sabrina_Cooper2163@famism.biz,1872-06-12 00:16:32,67,20
 Chris Tailor,Chris_Tailor2181@brety.org,1844-11-03 22:50:50,30,21
 Angelique Fleming,Angelique_Fleming9375@liret.org,1917-12-17 21:37:06,75,22

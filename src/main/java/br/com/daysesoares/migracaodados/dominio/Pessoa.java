@@ -2,6 +2,8 @@ package br.com.daysesoares.migracaodados.dominio;
 
 import java.util.Date;
 
+import org.apache.logging.log4j.util.Strings;
+
 public class Pessoa {
 	
 	private Integer id;
@@ -61,6 +63,10 @@ public class Pessoa {
 
 	public void setIdade(int idade) {
 		this.idade = idade;
+	}
+
+	public boolean isValida() {
+		return !Strings.isBlank(nome) && !Strings.isBlank(email) && dataNascimento != null;
 	}
 	
 	

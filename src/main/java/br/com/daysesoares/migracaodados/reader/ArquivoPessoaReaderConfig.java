@@ -34,7 +34,14 @@ public class ArquivoPessoaReaderConfig {
 				Pessoa pessoa = new Pessoa();
 				pessoa.setNome(fieldSet.readString("nome"));
 				pessoa.setEmail(fieldSet.readString("email"));
-				pessoa.setDataNascimento(new Date(fieldSet.readDate("dataNascimento", "yyyy-MM-dd HH:mm:ss").getTime()));
+				
+				String data = fieldSet.readString("dataNascimento");
+				if(!data.isEmpty()) {
+					pessoa.setDataNascimento(new Date(fieldSet.readDate("dataNascimento", "yyyy-MM-dd HH:mm:ss").getTime()));
+				}else {
+					pessoa.setDataNascimento(null);
+				}			
+				
 				pessoa.setIdade(fieldSet.readInt("idade"));
 				pessoa.setId(fieldSet.readInt("id"));
 				return pessoa;
